@@ -1,7 +1,7 @@
 import requests
 import pandas as pd
 
-url = "http://ecos.bok.or.kr/api/StatisticSearch/ULZSIIHE0GZR6O0QLP2O/json/kr/1/100/801Y002/A/2020/2024/1090000/"
+url = "http://ecos.bok.or.kr/api/StatisticSearch/'api_key'/json/kr/1/100/801Y002/A/2020/2024/1090000/"
 response = requests.get(url)
 
 data = response.json()
